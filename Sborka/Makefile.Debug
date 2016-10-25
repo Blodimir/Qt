@@ -462,57 +462,7 @@ debug/mainwindow.o: ../KorCurseQt/mainwindow.cpp ../KorCurseQt/mainwindow.h \
 		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtCore/qcoreapplication.h \
 		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtCore/qeventloop.h \
 		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtCore/QDebug \
-		ui_mainwindow.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtCore/QVariant \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QAction \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qaction.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qactiongroup.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QApplication \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qapplication.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qdesktopwidget.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtGui/qguiapplication.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtGui/qinputmethod.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QButtonGroup \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qbuttongroup.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QHeaderView \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qheaderview.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qabstractitemview.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qabstractscrollarea.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qframe.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtCore/qabstractitemmodel.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtCore/qitemselectionmodel.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qabstractitemdelegate.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qstyleoption.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qabstractspinbox.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtGui/qvalidator.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtCore/qregularexpression.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qslider.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qabstractslider.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qstyle.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qtabbar.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qrubberband.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QLabel \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qlabel.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QLineEdit \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qlineedit.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtGui/qtextcursor.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtGui/qtextformat.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtGui/qpen.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtGui/qtextoption.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QMenuBar \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qmenubar.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qmenu.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QPushButton \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qpushbutton.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qabstractbutton.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QStatusBar \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qstatusbar.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QTextEdit \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qtextedit.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtGui/qtextdocument.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QToolBar \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/qtoolbar.h \
-		F:/programs/Qt\ creator/5.6/mingw49_32/include/QtWidgets/QWidget
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\KorCurseQt\mainwindow.cpp
 
 debug/moc_mainwindow.o: debug/moc_mainwindow.cpp 
