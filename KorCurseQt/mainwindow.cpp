@@ -49,41 +49,59 @@ void MainWindow::on_pushButton_2_clicked()
       QString Opisanie=stroka.mid(0,7);
       if (Opisanie=="Массив ")
       {
-//          qDebug() <<  "Массив";
-          int num=7;
-          while (num<=stroka.size()-3)
-           if (stroka[num]==' ') {break;}
-           else
-            {
-               int unicode1 = stroka.at(num).unicode();
-               int unicode2 = stroka.at(num+1).unicode();
-               int unicode3 = stroka.at(num+2).unicode();
-               int unicode4 = stroka.at(num+3).unicode();
-               if ((unicode1<1104) && (unicode1>1021))
-               {
-                   num+=1;
+         spisok_perem=stroka.split(' ');//разделяем переменные
+         int kolvo_perem=spisok_perem.size();
+          qDebug() << kolvo_perem;
+        if (kolvo_perem>1)
+         {qDebug() << kolvo_perem;
+             for(i=1;i<kolvo_perem;i++)
+             {
+                 perem=spisok_perem.at(i); //конкретная переменная из списка, далее обрабатываем ее
+//                 qDebug() << perem;
+                 int perem_size=perem.size();
+                 if ((perem_size<2)||(perem_size>4))
+                 {
+                     ui->lineEdit->setText("Ошибка, ожидалась переменная");
+                 }
+                 else
+                 {
+                   int unicode1 = perem.at(0).unicode();
+                     if ((unicode1>1103) || (unicode1<1022))//проверка на первую обязательную букву
+                     {
+                         ui->lineEdit->setText("Ошибка, ожидалась переменная, первая буква");
+                     }
+                     unicode1 = perem.at(1).unicode();
+                     if ((unicode1>57) || (unicode1<48))//проверка на вторую обязательную цифру
+                     {
+                         ui->lineEdit->setText("Ошибка, ожидалась переменная, вторая цифра");
+                     }
+                    if (perem_size==3)
+                    {
+                        unicode1 = perem.at(2).unicode();
+                        if ((unicode1>57) || (unicode1<48))//проверка на вторую обязательную цифру
+                        {
+                            ui->lineEdit->setText("Ошибка, ожидалась переменная, третья цифра");
+                        }
+                    }
+                   if (perem_size==4)
+                    {
+                        unicode1 = perem.at(2).unicode();
+                        if ((unicode1>57) || (unicode1<48))//проверка на вторую обязательную цифру
+                        {
+                            ui->lineEdit->setText("Ошибка, ожидалась переменная, третья цифра");
+                        }
+                        unicode1 = perem.at(3).unicode();
+                        if ((unicode1>57) || (unicode1<48))//проверка на вторую обязательную цифру
+                        {
+                            ui->lineEdit->setText("Ошибка, ожидалась переменная, четвертая цифра");
+                        }
+                    }
+                 }
+             }
+         }
+         else ui->lineEdit->setText("Ошибка, ожидалась переменная");
 
-                   if ((unicode2<=57) && (unicode2>=48))
-                   {
-                       perem+=stroka[num-1];
-                       perem+=stroka[num];
-                       num+=1;
-                       if ((unicode3<=57) && (unicode3>=48))
-                       {
-                           perem+=stroka[num];
-                           num+=1;
-                           if ((unicode4<=57) && (unicode4>=48))
-                           {
-                            perem+=stroka[num];
-                            num+=1;
-                           }
-                       }
-                   }
-                   else ui->lineEdit->setText("Ошибка, ожидалась переменная");
-
-               }
-            }
-
+//         qDebug() << spisok_perem;
       }
       if (Opisanie=="Строка ")
       {

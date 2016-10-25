@@ -30,11 +30,13 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QPushButton *pushButton;
     QLabel *label;
-    QTextEdit *textEdit;
     QPushButton *pushButton_2;
+    QPushButton *pushButton;
     QLineEdit *lineEdit;
+    QLineEdit *lineEdit_2;
+    QTextEdit *textEdit;
+    QPushButton *pushButton_3;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -43,31 +45,41 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(1161, 637);
+        MainWindow->resize(1102, 647);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(980, 510, 131, 51));
         label = new QLabel(centralWidget);
         label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(550, 50, 501, 411));
+        label->setGeometry(QRect(550, 10, 501, 411));
         QFont font;
         font.setPointSize(15);
         label->setFont(font);
-        textEdit = new QTextEdit(centralWidget);
-        textEdit->setObjectName(QStringLiteral("textEdit"));
-        textEdit->setGeometry(QRect(50, 50, 471, 411));
         pushButton_2 = new QPushButton(centralWidget);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
-        pushButton_2->setGeometry(QRect(160, 520, 151, 51));
+        pushButton_2->setGeometry(QRect(170, 520, 151, 51));
+        pushButton = new QPushButton(centralWidget);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setGeometry(QRect(944, 532, 101, 51));
         lineEdit = new QLineEdit(centralWidget);
         lineEdit->setObjectName(QStringLiteral("lineEdit"));
-        lineEdit->setGeometry(QRect(50, 480, 851, 41));
+        lineEdit->setGeometry(QRect(40, 430, 1041, 31));
+        QFont font1;
+        font1.setPointSize(10);
+        font1.setItalic(true);
+        lineEdit->setFont(font1);
+        lineEdit_2 = new QLineEdit(centralWidget);
+        lineEdit_2->setObjectName(QStringLiteral("lineEdit_2"));
+        lineEdit_2->setGeometry(QRect(420, 500, 341, 81));
+        textEdit = new QTextEdit(centralWidget);
+        textEdit->setObjectName(QStringLiteral("textEdit"));
+        textEdit->setGeometry(QRect(40, 30, 481, 371));
+        pushButton_3 = new QPushButton(centralWidget);
+        pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
+        pushButton_3->setGeometry(QRect(420, 470, 75, 23));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1161, 21));
+        menuBar->setGeometry(QRect(0, 0, 1102, 21));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -84,7 +96,6 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
-        pushButton->setText(QApplication::translate("MainWindow", "Exit", 0));
         label->setText(QApplication::translate("MainWindow", "\320\257\320\267\321\213\320\272 = \"\320\275\320\260\321\207\320\260\320\273\320\276\" \320\276\320\277\320\270\321\201...\320\276\320\277\320\270\321\201 \320\276\320\277\320\265\321\200...\320\276\320\277\320\265\321\200 \"\320\236\320\272\320\276\320\275\321\207\320\260\320\275\320\270\320\265\"\n"
 "\320\236\320\277\320\270\321\201 = \"\320\234\320\260\321\201\321\201\320\270\320\262\" \320\277\320\265\321\200\320\265\320\274...\320\277\320\265\321\200\320\265\320\274 ! \"\320\241\321\202\321\200\320\276\320\272\320\260\" \320\237\320\265\321\200\320\265\320\274\n"
 "\320\236\320\277\320\265\321\200 = \321\206\320\265\320\273\":\"\320\237\320\265\321\200\320\265\320\274 \"=\" \320\237\320\247\n"
@@ -100,9 +111,11 @@ public:
 "\320\237\320\265\321\200\320\265\320\274 = \320\261\321\206\321\204</\"\321\206\321\204\"/></\"\321\206\321\204\"/>\n"
 "\320\262\320\265\321\211 = \321\206\320\265\320\273\".\"\321\206\320\265\320\273\n"
 "\321\206\320\265\320\273 = \321\206\321\204...\321\206\321\204\n"
-"\321\206\321\204 = \"0\"!\"1\"...\"F\"\n"
-"\320\261 = \"\320\260\"!\"\320\261\"...\"\321\217\"", 0));
+"\321\206\321\204 = \"0\"!\"1\"!...!\"F\"\n"
+"\320\261 = \"\320\260\"!\"\320\261\"!...!\"\321\217\"", 0));
         pushButton_2->setText(QApplication::translate("MainWindow", "DO", 0));
+        pushButton->setText(QApplication::translate("MainWindow", "Exit", 0));
+        pushButton_3->setText(QApplication::translate("MainWindow", "Test Text 1", 0));
     } // retranslateUi
 
 };
