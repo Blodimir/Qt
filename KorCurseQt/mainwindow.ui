@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>550</x>
-      <y>70</y>
+      <y>10</y>
       <width>501</width>
       <height>411</height>
      </rect>
@@ -43,8 +43,8 @@
 Перем = бцф&lt;/&quot;цф&quot;/&gt;&lt;/&quot;цф&quot;/&gt;
 вещ = цел&quot;.&quot;цел
 цел = цф...цф
-цф = &quot;0&quot;!&quot;1&quot;...&quot;F&quot;
-б = &quot;а&quot;!&quot;б&quot;...&quot;я&quot;</string>
+цф = &quot;0&quot;!&quot;1&quot;!...!&quot;F&quot;
+б = &quot;а&quot;!&quot;б&quot;!...!&quot;я&quot;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -60,16 +60,6 @@
      <string>DO</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>50</y>
-      <width>471</width>
-      <height>411</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
@@ -81,6 +71,55 @@
     </property>
     <property name="text">
      <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>1041</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>500</y>
+      <width>341</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>481</width>
+      <height>371</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Test Text 1</string>
     </property>
    </widget>
   </widget>
