@@ -1,1 +1,0 @@
-My curse project in Qt creator, Kor

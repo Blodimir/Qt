@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2016-10-22T20:02:26
+# Project created by QtCreator 2016-10-25T10:34:51
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = KorCurse
+TARGET = KorCurseQt
 TEMPLATE = app
 
 

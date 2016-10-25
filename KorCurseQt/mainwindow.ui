@@ -6,32 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1087</width>
-    <height>594</height>
+    <width>1102</width>
+    <height>647</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>460</y>
-      <width>141</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Push</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>30</y>
+      <x>550</x>
+      <y>70</y>
       <width>501</width>
       <height>411</height>
      </rect>
@@ -60,11 +47,24 @@
 б = &quot;а&quot;!&quot;б&quot;...&quot;я&quot;</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>520</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DO</string>
+    </property>
+   </widget>
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>30</y>
+      <x>40</x>
+      <y>50</y>
       <width>471</width>
       <height>411</height>
      </rect>
@@ -76,7 +76,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1087</width>
+     <width>1102</width>
      <height>21</height>
     </rect>
    </property>
