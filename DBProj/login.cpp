@@ -11,7 +11,7 @@ Login::Login(QWidget *parent) :
     loadsettings();
 
 //    ui->textEdit->setText(settings->value(("Title","MainForm").toString()));
-    ui->textEdit->setText("ИВАН-ПК\\SQLEXPRESS\n" "TestDB\n" "Иван-ПК\\Иван");
+    ui->textEdit->setText("HOME-PC\n" "Kurs_Data_Base\n" "HOME-PC\\Иван");
     ui->textEdit->setReadOnly(true);
 
 }
