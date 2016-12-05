@@ -10,18 +10,13 @@ MainWindow::MainWindow(QWidget *parent) :
 
 MainWindow::~MainWindow()
 {
-    delete ui;
-}
 
-void MainWindow::on_pushButton_clicked()
-{
-    this->close();
+
+    delete ui;
 }
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    QString str="111111111";
-//    int b = str.at(0).unicode();
-//   qDebug() <<  b;
-for (int num=1;num<5;num++) {str-="1"; qDebug() <<  str; }
+   QString a1 = ui->lineEdit->text();
+   QString a2 = ui->lineEdit_2->text();
 }

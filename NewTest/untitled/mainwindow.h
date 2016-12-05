@@ -2,8 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "qstring.h"
-#include <QDebug>
+#include "math_1.h"
 
 namespace Ui {
 class MainWindow;
@@ -18,8 +17,6 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
-
     void on_pushButton_2_clicked();
 
 private:

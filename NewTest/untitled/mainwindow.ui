@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1161</width>
-    <height>637</height>
+    <width>879</width>
+    <height>571</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,79 +17,100 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>510</y>
-      <width>131</width>
-      <height>51</height>
+      <x>290</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>Exit</string>
+     <string>=</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>50</y>
-      <width>501</width>
-      <height>411</height>
+      <x>30</x>
+      <y>180</y>
+      <width>113</width>
+      <height>20</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Язык = &quot;начало&quot; опис...опис опер...опер &quot;Окончание&quot;
-Опис = &quot;Массив&quot; перем...перем ! &quot;Строка&quot; Перем
-Опер = цел&quot;:&quot;Перем &quot;=&quot; ПЧ
-ПЧ = часть1 зн1...часть1
-Зн1 = &quot;+&quot; ! &quot;-&quot;
-часть1 = часть2 зн2...часть2
-Зн2 = &quot;*&quot; ! &quot;/&quot;
-часть2 = часть3 зн3...часть3
-Зн3 = &quot;OR&quot; ! &quot;AND&quot;
-Часть3 = &lt;/&quot;NOT&quot;/&gt;часть4
-Часть4 = перем ! вещ ! ПЧ  (n-любое)
-Перем = бцф&lt;/&quot;цф&quot;/&gt;&lt;/&quot;цф&quot;/&gt;
-вещ = цел&quot;.&quot;цел
-цел = цф...цф
-цф = &quot;0&quot;!&quot;1&quot;...&quot;F&quot;
-б = &quot;а&quot;!&quot;б&quot;...&quot;я&quot;</string>
-    </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>50</y>
-      <width>471</width>
-      <height>411</height>
+      <x>190</x>
+      <y>180</y>
+      <width>113</width>
+      <height>20</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>520</y>
-      <width>151</width>
-      <height>51</height>
+      <x>70</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>DO</string>
+     <string>+</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>480</y>
-      <width>851</width>
-      <height>41</height>
+      <x>170</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>180</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>180</y>
+      <width>113</width>
+      <height>20</height>
      </rect>
     </property>
    </widget>
@@ -99,7 +120,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1161</width>
+     <width>879</width>
      <height>21</height>
     </rect>
    </property>
